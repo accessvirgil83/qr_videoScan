@@ -14,7 +14,7 @@ ap.add_argument("-o", "--output", type=str, default="barcodes.csv",
 args = vars(ap.parse_args())
 # инициализация видеопотока
 print("[INFO] starting video stream...")
-vs = VideoStream('rtsp://admin:KameraTF6@193.150.117.98').start()
+vs = VideoStream('rtsp://TF6@193.150.117.98').start()
 time.sleep(2.0)
 #'rtsp://admin:KameraTF6@193.150.117.98'
 # открыть файл(barcodes.csv) для записи
